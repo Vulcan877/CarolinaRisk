@@ -322,35 +322,19 @@
   margin: 0;
 }
 
-.case-outcome {
+.case-image {
   background: var(--cr-navy);
-  padding: 38px 34px;
+  padding: 28px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-.case-outcome-label {
-  font: 600 11px var(--cr-font-sans);
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--cr-gold-light);
-  margin-bottom: 14px;
-}
-
-.case-outcome-value {
-  font-family: var(--cr-font-serif);
-  font-weight: 500;
-  font-size: 46px;
-  line-height: 1;
-  color: var(--cr-gold);
-  margin-bottom: 12px;
-}
-
-.case-outcome-text {
-  font: 400 14px/1.6 var(--cr-font-sans);
-  color: rgba(255, 255, 255, .78);
-  margin: 0;
+.case-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--cr-radius-sm);
+  display: block;
 }
 
 /* ============ CTA BAND ============ */

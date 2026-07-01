@@ -200,12 +200,9 @@
     grid-template-columns: 1fr;
   }
 
-  .case-outcome {
-    padding: 30px 34px;
-  }
-
-  .case-outcome-value {
-    font-size: 38px;
+  .case-image {
+    padding: 20px;
+    min-height: 220px;
   }
 
   .results-list {
