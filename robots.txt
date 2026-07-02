@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://carolinarisk.com/sitemap.xml
+Sitemap: https://carolinarisk.net/sitemap.xml
