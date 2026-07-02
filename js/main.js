@@ -17,9 +17,13 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
+    if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+      var focusWasInMenu = menu.contains(document.activeElement);
       toggle.setAttribute('aria-expanded', 'false');
       menu.classList.remove('open');
+      if (focusWasInMenu) {
+        toggle.focus();
+      }
     }
   });
 });

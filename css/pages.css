@@ -223,6 +223,12 @@
   padding-bottom: 40px;
 }
 
+/* ============ 404 ============ */
+.error-page {
+  padding: 120px 0;
+  text-align: center;
+}
+
 /* ============ WHO WE ARE - HOW WE WORK ============ */
 .how-we-work {
   padding: 0 0 110px;
@@ -364,6 +370,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
+  list-style: none;
 }
 
 /* ============ TESTIMONIALS ============ */
@@ -375,6 +382,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 28px;
+  list-style: none;
 }
 
 .testimonials-cta {

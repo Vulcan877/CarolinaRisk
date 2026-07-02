@@ -170,6 +170,7 @@
   display: flex;
   flex-direction: column;
   gap: 13px;
+  list-style: none;
 }
 
 .bullet-item {
@@ -400,6 +401,10 @@
   margin-bottom: 24px;
 }
 
+.contact-box--lg {
+  padding: 48px 44px;
+}
+
 .contact-box__heading {
   font: 600 12px var(--cr-font-sans);
   letter-spacing: .14em;
@@ -425,6 +430,17 @@
 .contact-box__value {
   font: 400 16px var(--cr-font-sans);
   color: #fff;
+}
+
+.contact-box__value-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-box__value-link:hover,
+.contact-box__value-link:focus-visible {
+  color: var(--cr-gold-light);
+  text-decoration: underline;
 }
 
 .contact-box__value--multiline {

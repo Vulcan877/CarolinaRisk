@@ -11,6 +11,11 @@
 
   .nav-toggle {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0;
   }
 
   .nav-links {
@@ -43,6 +48,15 @@
 
   .btn-cta--sm.nav-cta {
     display: none;
+  }
+
+  .nav-link--contact {
+    display: block;
+    margin-top: 6px;
+    padding-top: 14px;
+    border-top: 1px solid var(--cr-border);
+    color: var(--cr-gold-dark);
+    font-weight: 600;
   }
 
   /* Hero */
@@ -122,6 +136,10 @@
   /* Page Headers */
   .page-header {
     padding: 64px 0 30px;
+  }
+
+  .error-page {
+    padding: 64px 0;
   }
 
   .page-title {
@@ -318,6 +336,10 @@
   }
 
   .card--padded {
+    padding: 30px 24px;
+  }
+
+  .contact-box--lg {
     padding: 30px 24px;
   }
 }
