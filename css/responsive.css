@@ -214,13 +214,8 @@
   }
 
   /* Case Studies */
-  .case-card {
-    grid-template-columns: 1fr;
-  }
-
   .case-image {
-    padding: 20px;
-    min-height: 220px;
+    height: 220px;
   }
 
   .results-list {

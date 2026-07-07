@@ -278,8 +278,8 @@
   border: 1px solid var(--cr-border-light);
   border-radius: var(--cr-radius-md);
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 1.55fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .case-body {
@@ -325,7 +325,7 @@
 
 .case-image {
   background: var(--cr-navy);
-  padding: 28px;
+  height: 320px;
   display: flex;
 }
 
@@ -334,7 +334,6 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: var(--cr-radius-sm);
   display: block;
 }
 
