@@ -25,25 +25,37 @@
     left: 0;
     right: 0;
     flex-direction: column;
+    align-items: stretch;
     background: rgba(246, 248, 250, .97);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--cr-border);
-    padding: 16px var(--cr-gutter);
-    gap: 4px;
+    padding: 8px var(--cr-gutter);
+    gap: 0;
   }
 
   .nav-links.open {
     display: flex;
   }
 
+  .nav-links li {
+    width: 100%;
+  }
+
   .nav-link {
-    padding: 10px 0;
+    display: block;
+    width: 100%;
+    padding: 16px 4px;
     font-size: 15px;
+    border-bottom: 1px solid var(--cr-border);
+  }
+
+  .nav-links li:last-child .nav-link {
+    border-bottom: none;
   }
 
   .nav-link.active::after {
-    bottom: 6px;
+    bottom: 10px;
   }
 
   .btn-cta--sm.nav-cta {
